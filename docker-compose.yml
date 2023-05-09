@@ -1,0 +1,12 @@
+version: '3.6'
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_DB=kafka-backend-db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=jT+!+YScpUU:VdZVF6X<4#5l+MU1
+
+    ports:
+      - "5432:5432"
